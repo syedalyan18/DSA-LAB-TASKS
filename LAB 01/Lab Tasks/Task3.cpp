@@ -32,9 +32,9 @@ int main() {
     Rectangle r1(4, 5);  
     Rectangle r2 = r1;   
 
-    // cout<< "\nAddresses of width pointers:" << endl;
-    // cout << "r1.width = " << r1.width << endl;
-    // cout << "r2.width = " << r2.width << endl;
+    cout<< "\nAddresses of width pointers:" << endl;
+    cout << "r1.width = " << r1.width << endl;
+    cout << "r2.width = " << r2.width << endl;
 
     *(r2.width) = 10;
     cout << "\nAfter modifying r2.width:" << endl;
