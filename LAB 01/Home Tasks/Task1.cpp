@@ -92,10 +92,10 @@ int main() {
     cout << "d3: ";
     d3.print();
 
-//     cout << "\nLengths:\n";
-//     cout << "Length of d1: " << d1.length() << endl;
-//     cout << "Length of d2: " << d2.length() << endl;
-//     cout << "Length of d3: " << d3.length() << endl;
+    cout << "\nLengths:\n";
+    cout << "Length of d1: " << d1.length() << endl;
+    cout << "Length of d2: " << d2.length() << endl;
+    cout << "Length of d3: " << d3.length() << endl;
 
-//     return 0;
-// }
+    return 0;
+}
