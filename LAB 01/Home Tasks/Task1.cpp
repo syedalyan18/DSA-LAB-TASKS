@@ -9,6 +9,7 @@ private:
 public:
 
     DynamicString(const char* text) {
+        cout << "Constructor called" << endl;
         data = new char[strlen(text) + 1];
         strcpy(data, text);
     }
@@ -19,15 +20,18 @@ public:
     }
 
     ~DynamicString() {
+        cout << "Destructor called" << endl;
         delete[] data;
     }
 
     DynamicString(const DynamicString& other) {
+        cout << "Copy constructor called" << endl;
         data = new char[strlen(other.data) + 1];
         strcpy(data, other.data);
     }
 
     DynamicString& operator=(const DynamicString& other) {
+        cout << "Copy assignment operator called" << endl;
 
         if (this != &other) {
 
