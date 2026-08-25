@@ -78,12 +78,12 @@ int main()
     cout << "Row " << maxRow + 1 << " has most elements" << endl;
     cout << "Row " << minRow + 1 << " has least elements" << endl;
 
-    for (int i = 0; i < rows; i++)
-    {
-        delete[] jaggedArray[i];
-    }
-    delete[] jaggedArray;
-    delete[] rowSize;
-    delete[] sumRows;
-    return 0;
-}
+//     for (int i = 0; i < rows; i++)
+//     {
+//         delete[] jaggedArray[i];
+//     }
+//     delete[] jaggedArray;
+//     delete[] rowSize;
+//     delete[] sumRows;
+//     return 0;
+// }
