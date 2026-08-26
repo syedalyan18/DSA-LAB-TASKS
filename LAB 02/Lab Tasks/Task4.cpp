@@ -64,9 +64,9 @@ int main()
     }
     cout << endl;
 
-    cout << "Writing at position 10: ";
-    arr.set(10, 100);
-    cout << "Reading at position -1: " << arr.get(-1) << endl;
+//     cout << "Writing at position 10: ";
+//     arr.set(10, 100);
+//     cout << "Reading at position -1: " << arr.get(-1) << endl;
 
-    return 0;
-}
+//     return 0;
+// }
