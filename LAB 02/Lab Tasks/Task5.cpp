@@ -47,11 +47,11 @@ int main()
     int minRow = 0;
     for (int i = 1; i < rows; i++)
     {
-        if (max < rowSize[i])
-        {
-            max = rowSize[i];
-            maxRow = i;
-        }
+        // if (max < rowSize[i])
+        // {
+        //     max = rowSize[i];
+        //     maxRow = i;
+        // }
         if (min > rowSize[i])
         {
             min = rowSize[i];
