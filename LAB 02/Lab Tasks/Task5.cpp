@@ -60,30 +60,30 @@ int main()
     }
 
     // display
-//     for (int i = 0; i < rows; i++)
-//     {
-//         cout << "Elements of row " << i + 1 << " :";
-//         for (int j = 0; j < rowSize[i]; j++)
-//         {
-//             cout << jaggedArray[i][j] << " ";
-//         }
-//         cout << endl;
-//     }
-//     for (int i = 0; i < rows; i++)
-//     {
-//         cout << "Row sum of " << i + 1 << ": " << sumRows[i] << endl;
-//         cout << "Row avg of " << i + 1 << ": " << (float)sumRows[i] / rowSize[i] << endl;
-//     }
+    for (int i = 0; i < rows; i++)
+    {
+        cout << "Elements of row " << i + 1 << " :";
+        for (int j = 0; j < rowSize[i]; j++)
+        {
+            cout << jaggedArray[i][j] << " ";
+        }
+        cout << endl;
+    }
+    for (int i = 0; i < rows; i++)
+    {
+        cout << "Row sum of " << i + 1 << ": " << sumRows[i] << endl;
+        cout << "Row avg of " << i + 1 << ": " << (float)sumRows[i] / rowSize[i] << endl;
+    }
 
-//     cout << "Row " << maxRow + 1 << " has most elements" << endl;
-//     cout << "Row " << minRow + 1 << " has least elements" << endl;
+    cout << "Row " << maxRow + 1 << " has most elements" << endl;
+    cout << "Row " << minRow + 1 << " has least elements" << endl;
 
-//     for (int i = 0; i < rows; i++)
-//     {
-//         delete[] jaggedArray[i];
-//     }
-//     delete[] jaggedArray;
-//     delete[] rowSize;
-//     delete[] sumRows;
-//     return 0;
-// }
+    for (int i = 0; i < rows; i++)
+    {
+        delete[] jaggedArray[i];
+    }
+    delete[] jaggedArray;
+    delete[] rowSize;
+    delete[] sumRows;
+    return 0;
+}
