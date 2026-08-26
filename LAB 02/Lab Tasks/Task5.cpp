@@ -52,12 +52,12 @@ int main()
             max = rowSize[i];
             maxRow = i;
         }
-    //     if (min > rowSize[i])
-    //     {
-    //         min = rowSize[i];
-    //         minRow = i;
-    //     }
-    // }
+        if (min > rowSize[i])
+        {
+            min = rowSize[i];
+            minRow = i;
+        }
+    }
 
     // display
     for (int i = 0; i < rows; i++)
