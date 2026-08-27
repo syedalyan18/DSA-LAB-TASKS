@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <cstring>
 using namespace std;
@@ -100,6 +99,4 @@ int main() {
 
     return 0;
 }
-=======
 
->>>>>>> 442bf3f6fc1778ebfedca1b9f97dc00ccfd57e1e
