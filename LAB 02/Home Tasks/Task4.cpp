@@ -147,11 +147,11 @@ int main() {
     arr3.display();
 
     arr3.set(1, 888);
-//     cout << "After modifying arr3:" << endl;
-//     cout << "arr:  ";
-//     arr.display();
-//     cout << "arr3: ";
-//     arr3.display();
+    cout << "After modifying arr3:" << endl;
+    cout << "arr:  ";
+    arr.display();
+    cout << "arr3: ";
+    arr3.display();
 
-//     return 0;
-// }
+    return 0;
+}
