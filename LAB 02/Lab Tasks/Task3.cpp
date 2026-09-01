@@ -77,8 +77,8 @@ int main()
             display(arr, size);
         }
 
-//     } while (choice != 4);
-//     delete[] arr;
-//     arr = nullptr;
-//     return 0;
-// }
+    } while (choice != 4);
+    delete[] arr;
+    arr = nullptr;
+    return 0;
+}
