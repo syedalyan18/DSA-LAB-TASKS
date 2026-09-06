@@ -82,8 +82,8 @@ int main()
     {
         delete[] jaggedArray[i];
     }
-    delete[] jaggedArray;
-    delete[] rowSize;
-    delete[] sumRows;
-    return 0;
-}
+//     delete[] jaggedArray;
+//     delete[] rowSize;
+//     delete[] sumRows;
+//     return 0;
+// }
